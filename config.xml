@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget id="com.ionicframework.crm20700153"   xmlns:android = "http://schemas.android.com/apk/res/android" version="0.0.1" xmlns="http://www.w3.org/ns/widgets"  xmlns:cdv="http://cordova.apache.org/ns/1.0">
-
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+      
+        id        = "net.moodlemoot.mootes14"
+        versionCode = "1"
+        version   = "1.0">
     <name>mootes14</name>
 
     <description>
@@ -26,7 +31,7 @@
     <feature name="http://api.phonegap.com/1.0/media"/>
     <feature name="http://api.phonegap.com/1.0/file"/>
 
-    <preference name="phonegap-version" value="3.5.0" />
+    <preference name="phonegap-version" value="7.5.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
